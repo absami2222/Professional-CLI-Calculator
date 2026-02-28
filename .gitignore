@@ -1,0 +1,55 @@
+# Ignore build artifacts
+build/
+bin/
+obj/
+
+# ignore compiled objects from src
+src/*.o
+
+# ignore executable
+calculator
+
+# Compiled object files
+*.o
+*.obj
+
+# Executables and output
+*.exe
+*.out
+calculator
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dylib
+
+# Debug and coverage
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# IDE and editor folders
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Distribution
+dist/
+
+# Tags and cscope
+tags
+cscope.*
